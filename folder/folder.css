@@ -1,0 +1,63 @@
+.paragraph {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 100px;
+    border: 100px rgb(206, 30, 30);
+    margin: 100px;
+}
+#box1 {
+    height: 90px;
+    width: 60px;
+    background: blue;
+    display:inline-block;
+}
+#box2 {
+    height: 90px;
+    width: 60px;
+    background: rgb(218, 218, 248);
+    display:inline-block;
+}
+#box3 {
+    height: 90px;
+    width: 60px;
+    background: rgb(247, 9, 9);
+    display: inline-block;
+}
+div li:nth-child(2){
+    color: blue;
+}
+div li:nth-child(1) {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div p:nth-child(1){
+    background-color: pink;
+    color: white;
+}
+#paragraph {
+    background-color: aqua;
+    margin: 60px;
+    padding: 60px;
+}
+.grey {
+    background-color: grey;
+    height: 60px;
+    width: 300px;
+}
+.blue {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -60px;
+    left: 12px;
+}
+.orange {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -105px;
+    left: 16px;
+}
+

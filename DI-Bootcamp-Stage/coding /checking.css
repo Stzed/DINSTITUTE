@@ -1,0 +1,28 @@
+.elements {
+    background-color: pink;
+    border: 2px solid blue;
+    display: block;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+.menu a {
+    background-color: red;
+    color: blanchedalmond;
+    display: inline;
+    border: 2px solid green;
+}
+img {
+    float: right ;
+    height: 200px;
+    margin: 0 0 1em 1em;
+
+}
+h2 {
+    display: block;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: auto;
+    border: solid blue 10px;
+    position: relative;  
+}
