@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    background-color: rgb(225, 225, 245);
+    padding-bottom: 35px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.startbutton {
+    position: absolute;
+    border: none;
+    left: 80px;
+}
+.signbutton {
+    position: absolute;
+    background-color: #135376d5;
+    color: white;
+    left: 80%;
+}
+.image {
+    width: 100%;
+    height: 80%;
+    display: flex;
+
+}
+.water {
+    position: relative;
+    text-align: center;
+}
+.paragraph {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+  .enteremail {
+    width: 90%; 
+  }
+  .signup {
+    width: 10%; 
+  }
+}
+form {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.signup {
+    background-color: #135376d5;
+    color: white;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.sections {
+    text-align: center;
+    position: relative;
+}
+.computer , .check , .stack {
+    width: 40px;
+
+
+}
+

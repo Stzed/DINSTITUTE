@@ -1,0 +1,17 @@
+.navbar {
+    text-align: center;
+    display:flex;
+    min-width:fit-content;
+    max-width:100%;
+    background-color:  grey;
+
+   
+}
+.navbar :not(.logo) {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.Log {
+    background-color: rgb(38, 115, 230);
+    margin-right: -2300px;
+}
